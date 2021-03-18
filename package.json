@@ -1,0 +1,44 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "To-Do List app can be useful to create notes about tasks with details. You can also create new projects and add new tasks associated with that project. If you want to delete, edit the todos, or see its description, you can expand them by clicking \"Show details\".",
+  "main": "dist/main.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^4.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.1.3",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.2.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.26.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --progress",
+    "watch": "webpack --watch --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8Bts/Weather-App.git"
+  },
+  "author": "8Bts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8Bts/Weather-App/issues"
+  },
+  "homepage": "https://github.com/8Bts/Weather-App#readme"
+}
