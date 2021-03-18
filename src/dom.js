@@ -22,7 +22,7 @@ const dom = (() => {
   };
 
   const setWeatherBackground = (img) => {
-    infoCont.style.setProperty('background', `url("${img}")  no-repeat center  / cover fixed`);
+    infoCont.style.setProperty('background', `url("${img}")  no-repeat center / cover fixed`);
   };
 
   return { renderData, renderSearchFail, setWeatherBackground };
