@@ -22,7 +22,6 @@ form.addEventListener('submit', async (event) => {
     try {
       const gif = await Giphy.getData(data.weather[0].description);
       Dom.setWeatherBackground(gif.data.images.original.url);
-      console.log(gif.data.images.original.url);
     } catch (err) {
       Dom.setWeatherBackground('https://media.giphy.com/media/ZxLr4sFdcSRVhajXli/giphy.gif');
     }

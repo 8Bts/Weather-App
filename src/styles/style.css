@@ -10,8 +10,8 @@
 }
 
 .bg-magic {
-  background: rgb(199,15,95);
-background: linear-gradient(90deg, rgba(199,15,95,0.5998599268809086) 0%, rgba(19,56,99,0.41498597730107667) 100%);
+  background: rgb(199, 15, 95);
+  background: linear-gradient(90deg, rgba(199, 15, 95, 0.5998599268809086) 0%, rgba(19, 56, 99, 0.41498597730107667) 100%);
 }
 
 .cloud {
