@@ -1,0 +1,10 @@
+.main-cont {
+  min-height: 80vh;
+  width: 50vw;
+  margin: 2em auto;
+}
+
+.bg-magic {
+  background: rgb(199,15,95);
+  background: linear-gradient(90deg, rgba(199,15,95,1) 0%, rgba(19,56,99,1) 100%); 
+}

@@ -3,10 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Weather App</title>
 </head>
-<body>
+<body class="bg-magic">
+  <nav class="navbar navbar-light">
+    <a class="navbar-brand text-light" href="#">Weather Wizard</a>
+    <form id="searchForm" class="form-inline">
+      <input required id="cityName" class="form-control mr-sm-2" type="search" placeholder="City Name" aria-label="Search">
+      <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+  <main>
+    <div class="main-cont bg-light">
+      <div>
+        <h1 id="w-city" class="text-center text-secondary">Moscow</h1>
+        <div class="desc-cont p-2 border-bottom">
+          <h3 id="w-desc" class="w-info text-center text-secondary">sssss</h3>
+        </div>
+        <div class="d-flex align-items-center justify-content-center p-4">
+          <i class="fas fa-3x text-info fa-temperature-low"></i>
+          <span class="px-3">Temprature</span>
+          <span id="w-temp" class="w-info">11</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center p-4">
+          <div class="d-flex align-items-center">
+            <i class="fas fa-3x text-info fa-wind"></i>
+            <span class="px-3">Wind speed</span>
+            <span id="w-wind" class="w-info">22</span>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="fas fa-3x text-info fa-tint"></i>
+            <span class="px-3">Humidity</span>
+            <span id="w-humid" class="w-info">22</span>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </main>
   <script src="./main.js"></script>
 </body>
 </html>
