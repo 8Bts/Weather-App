@@ -1,0 +1,21 @@
+.main-cont {
+  min-height: 80vh;
+  width: 50vw;
+  margin: 2em auto;
+}
+
+#infoCont {
+  min-height: 59.54vh;
+  border-radius: 0.8rem;
+}
+
+.bg-magic {
+  background: rgb(199, 15, 95);
+  background: linear-gradient(90deg, rgba(199, 15, 95, 0.5998599268809086) 0%, rgba(19, 56, 99, 0.41498597730107667) 100%);
+}
+
+.cloud {
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 1.26rem;
+  padding: 1em;
+}
