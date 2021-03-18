@@ -1,9 +1,10 @@
 const dom = (() => {
   const wDefaultCont = document.getElementById('wDefaultCont');
   const wDataCont = document.getElementById('wDataCont');
+  const searchFlash = document.getElementById('searchFlash');
 
   const renderData = (data) => {
-    if (wDataCont) wDefaultCont.remove();
+    wDefaultCont.classList.replace('d-flex', 'd-none');
     wDataCont.classList.remove('d-none');
 
     document.getElementById('w-city').innerText = data.name;
@@ -13,7 +14,13 @@ const dom = (() => {
     document.getElementById('w-humid').innerText = `${data.main.humidity}%`;
   };
 
-  return { renderData };
+  const renderSearchFail = () => {
+    wDefaultCont.classList.replace('d-none', 'd-flex');
+    wDataCont.classList.add('d-none');
+    searchFlash.innerText = 'City not found :\\';
+  };
+
+  return { renderData, renderSearchFail };
 })();
 
 export default dom;

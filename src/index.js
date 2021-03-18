@@ -17,6 +17,6 @@ form.addEventListener('submit', (event) => {
   Weather.getData(city).then((data) => {
     if (data.cod === 200) {
       Dom.renderData(data);
-    } else console.log('City not found!');
-  }).catch((err) => console.log(err));
+    } else Dom.renderSearchFail();
+  }).catch();
 });
