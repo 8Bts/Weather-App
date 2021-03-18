@@ -4,7 +4,15 @@
   margin: 2em auto;
 }
 
+#infoCont { min-height: 62.6vh; }
+
 .bg-magic {
   background: rgb(199,15,95);
   background: linear-gradient(90deg, rgba(199,15,95,1) 0%, rgba(19,56,99,1) 100%); 
+}
+
+.cloud {
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 1.26rem;
+  padding: 1em;
 }

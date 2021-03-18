@@ -2,6 +2,7 @@ const dom = (() => {
   const wDefaultCont = document.getElementById('wDefaultCont');
   const wDataCont = document.getElementById('wDataCont');
   const searchFlash = document.getElementById('searchFlash');
+  const infoCont = document.getElementById('infoCont');
 
   const renderData = (data) => {
     wDefaultCont.classList.replace('d-flex', 'd-none');
@@ -20,7 +21,11 @@ const dom = (() => {
     searchFlash.innerText = 'City not found :\\';
   };
 
-  return { renderData, renderSearchFail };
+  const setWeatherBackground = (img) => {
+    infoCont.style.setProperty('background', `url("${img}")  no-repeat center  / cover fixed`);
+  };
+
+  return { renderData, renderSearchFail, setWeatherBackground };
 })();
 
 export default dom;
