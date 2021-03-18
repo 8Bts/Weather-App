@@ -17,7 +17,7 @@ This Web Application can get weather information anywhere in the world. It makes
 
 ## Live Demo
 
-[Githack](https://raw.githack.com/8Bts/To-Do-List/main-app/dist/index.html)
+[Githack](https://raw.githack.com/8Bts/Weather-App/w-app/dist/index.html)
 
 ## Getting Started
 
